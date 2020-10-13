@@ -1,0 +1,14 @@
+**定义：**
+
+一个类的行为或其算法可以在运行时更改。我们把它降维到代码层面，用人话翻译一下就是，运行时我给你这个类的方法传不同的“key”，你这个方法会执行不同的业务逻辑。细品一下，这不就是 if else 干的事吗？
+
+
+
+**核心：**
+
+实际上，我们口中的策略模式其实就是在代码结构上调整，用接口+实现类+分派逻辑来使代码结构可维护性好点。
+
+![img](https://mmbiz.qpic.cn/mmbiz_png/6fuT3emWI5Lsj3fcXACuSCj39VKd52CtGXc8WWTHoUAHNe30azxbvTwtBX68B8Tn6EMMiaaPutwNCzoaum9tzUQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+
+
